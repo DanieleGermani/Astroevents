@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #FAFAFE;
+  color: #2E2545;
+  padding-top: 100px;
+}
+
+a span {
+  color: #FAFAFE;
+}
+
+.item, .carousel {
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  height: 80px;
+  line-height: 50px;
+}
