@@ -3,20 +3,32 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #FAFAFE;
   color: #2E2545;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 a span {
   color: #FAFAFE;
 }
 
-.item, .carousel {
-  height: 700px;
+.carousel-inner > .item {
+  min-height: 600px;
   background-size: cover;
   background-position: center center;
+
 }
 
 .navbar-brand, .navbar-nav>li>a {
   height: 80px;
   line-height: 50px;
+}
+
+.footer{
+  color: #FAFAFE;
+  margin-top: 60px;
+  width: 100%;
+
+}
+.nada{
+  min-height: 700px;
+
 }
